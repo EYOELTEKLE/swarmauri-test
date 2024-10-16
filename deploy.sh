@@ -10,10 +10,12 @@ sudo apt install python3 python3-pip -y
 python3 -m venv venv
 apt install python3-dotenv
 source venv/bin/activate
-
+printf "environment activated"
+echo $PYTHONPATH
 # Install dependencies
 pip install -r requirements.txt
 
 
 # Run the application (assuming you have a run.py)
 python run.py
+printf "server running"
