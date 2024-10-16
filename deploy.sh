@@ -17,5 +17,4 @@ pip install -r requirements.txt
 
 
 # Run the application (assuming you have a run.py)
-python run.py
 printf "server running"
