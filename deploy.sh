@@ -13,7 +13,7 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-pip install dotenv
+
 
 # Run the application (assuming you have a run.py)
 python run.py
