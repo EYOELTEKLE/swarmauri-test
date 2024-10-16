@@ -1,5 +1,3 @@
-from flask import Flask
-from flask import Blueprint, jsonify, request
 from dotenv import load_dotenv
 import os
 import gradio as gr
